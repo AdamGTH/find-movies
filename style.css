@@ -1,0 +1,52 @@
+body {
+  /* background-color: rgb(67, 58, 66); */
+  background: linear-gradient(
+    90deg,
+    rgba(73, 52, 87, 1) 8%,
+    rgba(186, 44, 114, 1) 50%,
+    rgba(93, 59, 11, 1) 100%
+  );
+}
+
+h1 {
+  text-align: center;
+  color: aquamarine;
+}
+
+.text {
+  width: 350px;
+  height: 40px;
+  border-radius: 10px;
+  border-color: blueviolet;
+  margin: auto 10px auto;
+}
+
+.overview {
+  margin: 20px 0 20px;
+  font-style: italic;
+  font-size: larger;
+  color: orange;
+}
+
+#writeEndFind {
+  text-align: center;
+}
+
+.image {
+  display: flex;
+  justify-content: space-evenly;
+  border: 10px;
+}
+
+img {
+  margin: 10px 10px 10px;
+}
+
+.titles,
+.info {
+  font-family: cursive;
+}
+
+.checked {
+  color: orange;
+}
