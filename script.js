@@ -67,7 +67,7 @@ function fetch_for_title(title) {
 function update(data) {
   if (data.results.length > 0) {
     if (data.results.length > 1) showFindedMovies(data);
-    else showMovie(data.results[0]);
+    else fetch_for_id(data.results[0].id);
   } else {
     clearScreen();
     document.querySelector(".titles").innerHTML =
